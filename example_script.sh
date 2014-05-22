@@ -3,15 +3,12 @@
 # the flag tells bash to exit if a command fails
 set -e
 
-echo -e "\033[33m
-  _           _ _     _ _                                        _
- | |         (_) |   | | |                                      | |
- | |__  _   _ _| | __| | |__   _____  __   __ _  __ _  ___ _ __ | |_
- | '_ \| | | | | |/ _\` | '_ \ / _ \ \/ /  / _\` |/ _\` |/ _ \ '_ \| __|
- | |_) | |_| | | | (_| | |_) | (_) >  <  | (_| | (_| |  __/ | | | |_
- |_.__/ \__,_|_|_|\__,_|_.__/ \___/_/\_\  \__,_|\__, |\___|_| |_|\__|
-                                                 __/ |
-                                                |___/\033[0m
--- https://buildbox.io"
+ASCII=`cat ascii/homer.txt`
 
-echo -e "\n\nYay, you've successfully ran a script on Buildbox!"
+echo -e "\033[33mCongratulations!\033[0m You've successfully run your first build on Buildbox!
+
+\033[34m$ASCII\033[0m
+
+If you need any more help, please email us at hello@buildbox.io
+
+\033[31m<3\033[0m Buildobx"
