@@ -7,7 +7,7 @@ ASCII=`cat ascii/homer.txt`
 
 echo -e "\033[33mCongratulations!\033[0m You've successfully run your first build on Buildbox! 👍
 
-$ASCII
+\e033[33m$ASCII\e033[0m
 
 If you need any more help, please email us at hello@buildbox.io
 
