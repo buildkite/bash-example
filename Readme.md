@@ -7,4 +7,4 @@ There is also a Ruby on Rails example repository https://github.com/buildkite/ra
 Wow
 Such
 Code
-Many
+Manymoo
