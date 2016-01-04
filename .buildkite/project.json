@@ -2,7 +2,7 @@
   "steps": [
     {
       "type": "script",
-      "name": ":hammer: Example Test"
+      "name": ":hammer: Example Test",
       "command": "example_script.sh",
       "agent_query_rules": []
     }
