@@ -1,4 +1,6 @@
 {
+  "name": "Bash Example",
+  "repository": "https://github.com/buildkite/bash-example.git",
   "steps": [
     {
       "type": "script",
