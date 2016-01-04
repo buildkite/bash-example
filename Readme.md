@@ -1,5 +1,13 @@
 # Buildkite Bash Example
 
-This repository can be used as a test project to get you started using Buildkite. You can read the guide associated with this repository here: https://buildkite.com/docs/guides/getting-started
+Welcome! This is an example project you can use to get your first green build running on [Buildkite](https://buildkite.com/).
 
-There is also a Ruby on Rails example repository https://github.com/buildkite/rails-example
+It contains an example bash script, [example_script.sh](example_script.sh), which simply prints some debug output and exits with a success code (0).
+
+See the full [Getting Started Guide](https://buildkite.com/docs/guides/getting-started) for step-by-step instructions on how to get this running, or simply click the following link to add this project to Buildkite:
+
+[Add to Buildkite](https://buildkite.com/new)
+
+## License
+
+See [LICENSE.md](LICENSE.md) (MIT)
