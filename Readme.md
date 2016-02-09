@@ -6,7 +6,7 @@ It contains an example bash script, [example_script.sh](example_script.sh), whic
 
 See the full [Getting Started Guide](https://buildkite.com/docs/guides/getting-started) for step-by-step instructions on how to get this running, or simply click the following link to add this project to Buildkite:
 
-[Add to Buildkite](https://buildkite.com/new)
+[<img src="https://dl.dropboxusercontent.com/u/376613/buildkite-button.svg" alt="Add to Buildkite">](https://buildkite.com/new)
 
 ## License
 
