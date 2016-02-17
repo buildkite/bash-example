@@ -1,0 +1,4 @@
+steps:
+  - name: ":hammer: Example Script"
+    command: "script.sh"
+    artifact_paths: "ascii/*"

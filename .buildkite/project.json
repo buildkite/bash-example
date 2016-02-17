@@ -1,12 +1,10 @@
 {
   "name": "Bash Example",
-  "repository": "https://github.com/buildkite/bash-example.git",
   "steps": [
     {
       "type": "script",
-      "name": ":hammer: Test",
-      "command": "example_script.sh",
-      "agent_query_rules": []
+      "name": ":pipeline:",
+      "command": "buildkite-agent pipeline upload"
     }
   ]
 }
