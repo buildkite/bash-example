@@ -1,4 +1,4 @@
-name: "Bash Example"
+name: "Buildkite 5000"
 description: "An example repository you can use as a test project with Buildkite"
 steps:
   - command: "buildkite-agent pipeline upload"
