@@ -10,6 +10,10 @@ echo "--- :evergreen_tree: Build job environment"
 
 env
 
+echo ":rocket: Modified."
+
+# purposeful failure
+exit 1
 
 echo "+++ :hammer: Example tests"
 
