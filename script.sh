@@ -10,7 +10,7 @@ echo "--- :evergreen_tree: Build job environment"
 
 env
 
-echo ":rocket: Modified."
+echo "🚀 Modified."
 
 # purposeful failure
 exit 1
