@@ -1,4 +1,4 @@
-# Buildkite Bash Pipeline Example
+# Bash Pipeline Example
 
 [![Add to Buildkite](https://buildkite.com/button.svg)](https://buildkite.com/new)
 
