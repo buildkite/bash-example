@@ -10,7 +10,6 @@ echo "--- :evergreen_tree: Build job environment"
 
 env
 
-
 echo "+++ :hammer: Example tests 🦹"
 
 echo -e "\033[33mCongratulations!\033[0m You've successfully run your first build on Buildkite! 👍
