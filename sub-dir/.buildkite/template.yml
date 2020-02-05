@@ -1,0 +1,5 @@
+name: "Specific Bash Example"
+description: "Imported from a sub-dir"
+steps:
+  - command: "buildkite-agent pipeline upload"
+    label: ":pipeline:"
