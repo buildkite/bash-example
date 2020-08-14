@@ -1,6 +1,8 @@
 steps:
   - label: ":hammer: Example Script"
     command: "script.sh"
+    concurrency: 1
+    concurrency_group: bash_example
     artifact_paths: "artifacts/*"
     agents:
       queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"
