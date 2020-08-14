@@ -13,6 +13,9 @@ env
 
 echo "+++ :hammer: Example tests"
 
+echo "Sleeping for 60 seconds"
+sleep 60
+
 echo -e "\033[33mCongratulations!\033[0m You've successfully run your first build on Buildkite! 👍
 
 \033[33m$(cat artifacts/thumbsup.txt)\033[0m
