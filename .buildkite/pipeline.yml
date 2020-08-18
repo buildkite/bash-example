@@ -4,3 +4,8 @@ steps:
     artifact_paths: "artifacts/*"
     agents:
       queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"
+
+  - label: ":ruby: Ruby Script"
+    command: "hi.rb"
+    agents:
+      queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"
