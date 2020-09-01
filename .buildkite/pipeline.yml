@@ -1,6 +1,15 @@
 steps:
-  - label: ":hammer: Example Script"
+  - label: ":arrow_up: upload artifacts #1"
     command: "script.sh"
     artifact_paths: "artifacts/*"
+    agents:
+      queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"
+  - label: ":arrow_up: upload artifacts #2"
+    command: "script.sh"
+    artifact_paths: "artifacts/*"
+    agents:
+      queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"
+  - label: ":mag: search uploaded artifacts"
+    command: "search.sh"
     agents:
       queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"
