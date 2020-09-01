@@ -9,6 +9,7 @@ steps:
     artifact_paths: "artifacts/*"
     agents:
       queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"
+  - wait: ~
   - label: ":mag: search uploaded artifacts"
     command: "search.sh"
     agents:
