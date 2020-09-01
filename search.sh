@@ -1,7 +1,6 @@
 set -eo pipefail
 
 echo "+++ :mag: Searching for the artifacts we uploaded..."
-echo "> buildkite-agent artifact search \"*\""
 buildkite-agent artifact search "*"
 
 echo
