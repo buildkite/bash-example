@@ -1,3 +1,4 @@
+#!/bin/bash
 set -eo pipefail
 
 echo "+++ :mag: Searching for the artifacts we uploaded..."
@@ -9,7 +10,7 @@ buildkite-agent artifact search "artifacts/image.gif"
 
 echo "3. Search for something that doesn't exist"
 set +e # the next command is expected to exit non-zero
-result=buildkite-agent artifact search "horses"
+result="$(buildkite-agent artifact search "horses")"
 echo "Artifact search returned $? $result"
 
 echo
