@@ -11,7 +11,7 @@ buildkite-agent artifact search "artifacts/duplicate.txt"
 set +x
 
 set -x
-result="$(buildkite-agent artifact search "horses")"
+$(buildkite-agent artifact search "horses")
 set +x
 
 echo
