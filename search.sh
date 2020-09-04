@@ -5,8 +5,8 @@ echo "+++ :mag: Searching for the artifacts we uploaded..."
 echo "1. Search for * to find everything"
 buildkite-agent artifact search "*"
 
-echo "2. Search for artifacts/image.gif to test that we can handle duplicates"
-buildkite-agent artifact search "artifacts/image.gif"
+echo "2. Search for artifacts/duplicate.txt to test that we can handle duplicates"
+buildkite-agent artifact search "artifacts/duplicate.txt"
 
 echo "3. Search for something that doesn't exist"
 set +e # the next command is expected to exit non-zero
