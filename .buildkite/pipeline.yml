@@ -1,12 +1,12 @@
 steps:
-  - label: ":arrow_up: upload artifacts #1"
+  - label: ":arrow_up: upload all artifacts"
     command: "script.sh"
     artifact_paths: "artifacts/*"
     agents:
       queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"
-  - label: ":arrow_up: upload artifacts #2"
+  - label: ":arrow_up: upload duplicate artifact"
     command: "script.sh"
-    artifact_paths: "artifacts/*"
+    artifact_paths: "artifacts/duplicate.txt"
     agents:
       queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"
   - wait: ~
