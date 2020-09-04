@@ -1,17 +1,18 @@
 #!/bin/bash
 set -eo pipefail
 
-echo "+++ :mag: Searching for the artifacts we uploaded..."
-echo "1. Search for * to find everything"
+echo "+++ :mag: Searching for the artifacts we uploaded earlier in the build..."
+set -x
 buildkite-agent artifact search "*"
+set +x
 
-echo "2. Search for artifacts/duplicate.txt to test that we can handle duplicates"
+set -x
 buildkite-agent artifact search "artifacts/duplicate.txt"
+set +x
 
-echo "3. Search for something that doesn't exist"
-set +e # the next command is expected to exit non-zero
+set -x
 result="$(buildkite-agent artifact search "horses")"
-echo "Artifact search returned $? $result"
+set +x
 
 echo
 echo "For more info, visit our docs: https://buildkite.com/docs/pipelines/artifacts"
