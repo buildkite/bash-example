@@ -13,6 +13,9 @@ env
 
 echo "+++ :hammer: Example tests"
 
+echo "Wait for 10 minutes or so (this is to simulate a long running job)"
+sleep 10m
+
 echo -e "\033[33mCongratulations!\033[0m You've successfully run your first build on Buildkite! 👍
 
 \033[33m$(cat artifacts/thumbsup.txt)\033[0m
