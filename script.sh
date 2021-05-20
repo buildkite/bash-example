@@ -30,3 +30,6 @@ function inline_image {
 }
 
 inline_image 'artifact://artifacts/image.gif' 'Rainbows'
+
+echo "Exiting non-zero to simulate a failing job"
+exit 1
