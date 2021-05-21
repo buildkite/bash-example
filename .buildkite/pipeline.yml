@@ -1,4 +1,9 @@
 steps:
+  - block: "Enter deploy stage?"
+    key: "block-deploy"
+    fields:
+      - text: "Codename for release"
+        key: "release-name"
   - label: ":hammer: Example Script"
     command: "script.sh"
     artifact_paths: "artifacts/*"
