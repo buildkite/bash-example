@@ -1,6 +1,6 @@
 steps:
   - block: "Enter deploy stage?"
-    blocked_state: "running"
+    blocked_state: "passed"
     key: "block-deploy"
     fields:
       - text: "Codename for release"
