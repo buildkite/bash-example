@@ -30,3 +30,7 @@ function inline_image {
 }
 
 inline_image 'artifact://artifacts/image.gif' 'Rainbows'
+
+echo "Now let's break it!"
+
+return 1
