@@ -3,4 +3,7 @@ steps:
     command: "script.sh"
     artifact_paths: "artifacts/*"
     agents:
-      queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"
+      queue: "local"
+
+notify:
+  - pagerduty_change_event: "24b2749165a9430fd012f061676705c2"
