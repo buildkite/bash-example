@@ -31,6 +31,6 @@ function inline_image {
 
 inline_image 'artifact://artifacts/image.gif' 'Rainbows'
 
-echo "Now let's break it!"
+echo "Now let's break it! Some more!"
 
 return 1
