@@ -33,4 +33,4 @@ inline_image 'artifact://artifacts/image.gif' 'Rainbows'
 
 echo "Now let's break it! Some more!"
 
-return 1
+return 0
