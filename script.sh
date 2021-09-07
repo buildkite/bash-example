@@ -22,6 +22,7 @@ If you have any questions or need help email support@buildkite.com, we'd be happ
 \033[31m<3\033[0m Buildkite
 "
 
+echo "Rycar was here!"
 
 echo "+++ :frame_with_picture: Inline image uploaded as a build artifact"
 
