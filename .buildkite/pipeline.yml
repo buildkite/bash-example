@@ -1,6 +1,6 @@
 steps:
   - label: ":hammer: Example Script"
-    command: "pwd"
+    command: "echo $COOL_PASSWORD"
     artifact_paths: "artifacts/*"
     agents:
       queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"
