@@ -1,6 +1,7 @@
 steps:
   - label: ":hammer: Example Script"
-    command: "sleep 60"
+    command: "sleep 120"
+    timeout_in_minutes: 1
     # artifact_paths: "artifacts/*"
     agents:
       queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"
