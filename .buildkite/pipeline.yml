@@ -1,6 +1,6 @@
 steps:
   - label: ":hammer: Example Script"
-    command: "sleep 300"
+    command: "sleep 5"
     timeout_in_minutes: 1
     artifact_paths: "artifacts/*"
     agents:
