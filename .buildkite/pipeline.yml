@@ -2,7 +2,7 @@ steps:
   - label: ":hammer: Example Script"
     command: "sleep 5"
     plugins:
-      - docker#v3.11.0:
+      - docker?constraint=^3.x:
           image: alpine
     artifact_paths: "artifacts/*"
     agents:
