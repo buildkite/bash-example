@@ -4,4 +4,4 @@ steps:
     artifact_paths: "artifacts/*"
 
   - label: ":hammer: metadata"
-    command: "buildkite-agent meta-data set 'glerb' 'fleeb'  --log-format json"
+    command: "buildkite-agent meta-data set 'glerb' 'fleeb' --log-format json"
