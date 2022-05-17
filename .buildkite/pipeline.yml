@@ -1,9 +1,7 @@
 steps:
   - label: ":hammer: Example Script"
-    command: "sleep 5"
-    plugins:
-      - docker?constraint=^3.x:
-          image: alpine
+    command: "echo \"hello!\""
     artifact_paths: "artifacts/*"
-    agents:
-      queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"
+
+  - label: ":hammer: metadata"
+    command: "buildkite-agent meta-data set --log-format json 'glerb' 'fleeb'"
