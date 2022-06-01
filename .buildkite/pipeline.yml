@@ -1,6 +1,6 @@
 steps:
   - label: ":hammer: Example Script"
-    command: "echo \"hello!\""
+    command: "exit 1"
     artifact_paths: "artifacts/*"
     plugins:
       docker#v3.12.0:
