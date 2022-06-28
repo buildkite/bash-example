@@ -1,4 +1,4 @@
 steps:
   - label: ":hammer: Example Script"
-    command: "exit 1"
+    command: "echo $$TEST"
     artifact_paths: "artifacts/*"
