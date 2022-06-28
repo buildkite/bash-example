@@ -2,10 +2,3 @@ steps:
   - label: ":hammer: Example Script"
     command: "exit 1"
     artifact_paths: "artifacts/*"
-    plugins:
-      docker#v3.12.0:
-        image: "alpine:latest"
-        always-pull: true
-
-  - label: ":hammer: metadata"
-    command: "buildkite-agent meta-data set 'glerb' 'fleeb' --log-level error"
