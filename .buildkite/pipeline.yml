@@ -1,4 +1,6 @@
 steps:
   - label: ":hammer: Example Script"
-    command: "echo $$TEST"
+    commands:
+      - "export -p"
+      - printenv
     artifact_paths: "artifacts/*"
