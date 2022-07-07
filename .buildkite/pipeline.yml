@@ -1,5 +1,6 @@
 steps:
   - label: ":hammer: Example Script"
+    key: "run-script"
     commands:
       - "export -p"
       - printenv
