@@ -8,4 +8,9 @@ steps:
 
   - label: "this one 🅱️ has emojis ⭐️"
     command: "echo '🅱️'"
-    artifact_paths: "artifacts/*"
+
+  - label: "plugins baybee"
+    plugins:
+      - docker#v3.13.0:
+          image: alpine
+    command: "echo '🐳'"
