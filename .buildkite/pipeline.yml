@@ -3,5 +3,5 @@ steps:
     key: "run-script"
     commands:
       - mkdir -p cool-artifacts
-      - dd if=/dev/urandom bs=1024 count=10240 | split -a 4 -b 1k - cool-artifacts/file.
+      - dd if=/dev/urandom bs=1024 count=1024 | split -a 4 -b 1k - cool-artifacts/file.
     artifact_paths: "cool-artifacts/*"
