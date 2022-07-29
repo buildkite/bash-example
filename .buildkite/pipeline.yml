@@ -1,16 +1,7 @@
 steps:
-  - label: ":hammer: Example Script"
+  - label: "loads-of-artifacts"
     key: "run-script"
     commands:
-      - "export -p"
-      - printenv
-    artifact_paths: "artifacts/*"
-
-  - label: "this one 🅱️ has emojis ⭐️"
-    command: "echo '🅱️'"
-
-  - label: "plugins baybee"
-    plugins:
-      - docker#v3.13.0:
-          image: alpine
-    command: "echo '🐳'"
+      - mkdir -p cool-artifacts
+      - dd if=/dev/urandom bs=1024 count=10240 | split -a 4 -b 1k - cool-artifacts/file.
+    artifact_paths: "cool-artifacts/*"
