@@ -2,6 +2,6 @@ steps:
   - label: "block with pid"
     key: "upload-heaps"
     commands:
-      - echo $$
+      - echo $$$$
       - sleep 10000
     artifact_paths: "cool-artifacts/*"
