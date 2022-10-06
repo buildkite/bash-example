@@ -1,14 +1,7 @@
 steps:
-  - label: "Upload heaps"
+  - label: "block with pid"
     key: "upload-heaps"
     commands:
-      - mkdir -p cool-artifacts
-      - dd if=/dev/urandom bs=1024 count=1024 | split -a 4 -b 1k - cool-artifacts/file.
+      - echo $$
+      - sleep 10000
     artifact_paths: "cool-artifacts/*"
-
-  - label: "Download heaps"
-    key: "download-heaps"
-    depends_on: "upload-heaps"
-    commands:
-      - mkdir -p even-cooler-artifacts
-      - buildkite-agent artifact download cool-artifacts/* ./even-cooler-artifacts/
