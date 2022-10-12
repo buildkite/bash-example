@@ -1,2 +1,8 @@
 #! /usr/bin/env bash
-echo "This is an example of a pre-command hook from .buildkite/hooks/pre-command"
+
+MYUSERNAME="user"
+export MYUSERNAME
+MYSECRETKEY=$'this\nis\na\nkey'
+export MYSECRETKEY
+
+export
