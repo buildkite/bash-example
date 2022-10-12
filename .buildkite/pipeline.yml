@@ -2,10 +2,5 @@ steps:
   - label: "block with pid"
     key: "upload-heaps"
     commands:
-      - echo '&&&&&&&&&&&&&&&&&&&& export &&&&&&&&&&&&&&&&&&&&'
-      - export
-      - echo '&&&&&&&&&&&&&&&&&&&& env &&&&&&&&&&&&&&&&&&&&'
-      - env
-      - echo '&&&&&&&&&&&&&&&&&&&& printenv &&&&&&&&&&&&&&&&&&&&'
-      - printenv
+      - declare -p
     artifact_paths: "cool-artifacts/*"

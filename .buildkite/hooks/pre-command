@@ -4,5 +4,3 @@ MYUSERNAME="user"
 export MYUSERNAME
 MYSECRETKEY=$'this\nis\na\nkey'
 export MYSECRETKEY
-
-export
