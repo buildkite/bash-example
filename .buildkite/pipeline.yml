@@ -4,67 +4,190 @@ steps:
     steps:
     - label: "pretend to do tests"
       command: ".buildkite/steps/wait.sh"
-      retry: &retry
+      retry:
         automatic:
-          - exit_status: -1,
-            signal_reason: "none",
-            limit: 4,
-          - signal_reason: "agent_stop",
-            limit: 4,
+          - exit_status: -1
+            signal_reason: "none"
+            limit: 4
+          - signal_reason: "agent_stop"
+            limit: 4
     - label: "pretend to do tests"
       command: ".buildkite/steps/wait.sh"
-      retry: *retry
+      retry:
+        automatic:
+          - exit_status: -1
+            signal_reason: "none"
+            limit: 4
+          - signal_reason: "agent_stop"
+            limit: 4
     - label: "pretend to do tests"
       command: ".buildkite/steps/wait.sh"
-      retry: *retry
+      retry:
+        automatic:
+          - exit_status: -1
+            signal_reason: "none"
+            limit: 4
+          - signal_reason: "agent_stop"
+            limit: 4
     - label: "pretend to do tests"
       command: ".buildkite/steps/wait.sh"
-      retry: *retry
+      retry:
+        automatic:
+          - exit_status: -1
+            signal_reason: "none"
+            limit: 4
+          - signal_reason: "agent_stop"
+            limit: 4
     - label: "pretend to do tests"
       command: ".buildkite/steps/wait.sh"
-      retry: *retry
+      retry:
+        automatic:
+          - exit_status: -1
+            signal_reason: "none"
+            limit: 4
+          - signal_reason: "agent_stop"
+            limit: 4
     - label: "pretend to do tests"
       command: ".buildkite/steps/wait.sh"
-      retry: *retry
+      retry:
+        automatic:
+          - exit_status: -1
+            signal_reason: "none"
+            limit: 4
+          - signal_reason: "agent_stop"
+            limit: 4
     - label: "pretend to do tests"
       command: ".buildkite/steps/wait.sh"
-      retry: *retry
+      retry:
+        automatic:
+          - exit_status: -1
+            signal_reason: "none"
+            limit: 4
+          - signal_reason: "agent_stop"
+            limit: 4
     - label: "pretend to do tests"
       command: ".buildkite/steps/wait.sh"
-      retry: *retry
+      retry:
+        automatic:
+          - exit_status: -1
+            signal_reason: "none"
+            limit: 4
+          - signal_reason: "agent_stop"
+            limit: 4
     - label: "pretend to do tests"
       command: ".buildkite/steps/wait.sh"
-      retry: *retry
+      retry:
+        automatic:
+          - exit_status: -1
+            signal_reason: "none"
+            limit: 4
+          - signal_reason: "agent_stop"
+            limit: 4
     - label: "pretend to do tests"
       command: ".buildkite/steps/wait.sh"
-      retry: *retry
+      retry:
+        automatic:
+          - exit_status: -1
+            signal_reason: "none"
+            limit: 4
+          - signal_reason: "agent_stop"
+            limit: 4
     - label: "pretend to do tests"
       command: ".buildkite/steps/wait.sh"
-      retry: *retry
+      retry:
+        automatic:
+          - exit_status: -1
+            signal_reason: "none"
+            limit: 4
+          - signal_reason: "agent_stop"
+            limit: 4
     - label: "pretend to do tests"
       command: ".buildkite/steps/wait.sh"
-      retry: *retry
+      retry:
+        automatic:
+          - exit_status: -1
+            signal_reason: "none"
+            limit: 4
+          - signal_reason: "agent_stop"
+            limit: 4
     - label: "pretend to do tests"
       command: ".buildkite/steps/wait.sh"
-      retry: *retry
+      retry:
+        automatic:
+          - exit_status: -1
+            signal_reason: "none"
+            limit: 4
+          - signal_reason: "agent_stop"
+            limit: 4
     - label: "pretend to do tests"
       command: ".buildkite/steps/wait.sh"
-      retry: *retry
+      retry:
+        automatic:
+          - exit_status: -1
+            signal_reason: "none"
+            limit: 4
+          - signal_reason: "agent_stop"
+            limit: 4
     - label: "pretend to do tests"
       command: ".buildkite/steps/wait.sh"
-      retry: *retry
+      retry:
+        automatic:
+          - exit_status: -1
+            signal_reason: "none"
+            limit: 4
+          - signal_reason: "agent_stop"
+            limit: 4
     - label: "pretend to do tests"
       command: ".buildkite/steps/wait.sh"
-      retry: *retry
+      retry:
+        automatic:
+          - exit_status: -1
+            signal_reason: "none"
+            limit: 4
+          - signal_reason: "agent_stop"
+            limit: 4
     - label: "pretend to do tests"
       command: ".buildkite/steps/wait.sh"
-      retry: *retry
+      retry:
+        automatic:
+          - exit_status: -1
+            signal_reason: "none"
+            limit: 4
+          - signal_reason: "agent_stop"
+            limit: 4
     - label: "pretend to do tests"
       command: ".buildkite/steps/wait.sh"
-      retry: *retry
+      retry:
+        automatic:
+          - exit_status: -1
+            signal_reason: "none"
+            limit: 4
+          - signal_reason: "agent_stop"
+            limit: 4
     - label: "pretend to do tests"
       command: ".buildkite/steps/wait.sh"
-      retry: *retry
+      retry:
+        automatic:
+          - exit_status: -1
+            signal_reason: "none"
+            limit: 4
+          - signal_reason: "agent_stop"
+            limit: 4
     - label: "pretend to do tests"
       command: ".buildkite/steps/wait.sh"
-      retry: *retry
+      retry:
+        automatic:
+          - exit_status: -1
+            signal_reason: "none"
+            limit: 4
+          - signal_reason: "agent_stop"
+            limit: 4
+    - label: "pretend to do tests"
+      command: ".buildkite/steps/wait.sh"
+      retry:
+        automatic:
+          - exit_status: -1
+            signal_reason: "none"
+            limit: 4
+          - signal_reason: "agent_stop"
+            limit: 4
