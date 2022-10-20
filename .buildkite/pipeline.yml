@@ -3,4 +3,4 @@ steps:
     key: my-cool-group
     steps:
     - label: "pretend to do tests"
-      command: "printenv"
+      command: "echo $BUILDKITE_MESSAGE"
