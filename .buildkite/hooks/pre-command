@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# export NOT_SECRET="👋 hi there ABC!"
+export SUPER_SECRET="hi there ABC!
+you shouldn't be able to see this 東京"

@@ -1,6 +1,6 @@
 steps:
   - label: "pretend to do tests"
-    command: cat $$BUILDKITE_ENV_FILE
+    command: echo "Hello 🍎🐝🌊"
     env:
       MY_COOL_ENV_VAR: |
         hi there. i'm a really cool env var,
