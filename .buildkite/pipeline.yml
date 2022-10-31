@@ -1,8 +1,7 @@
 steps:
   - label: "pretend to do tests"
-    command: echo "Hello 🍎🐝🌊"
-    env:
-      MY_COOL_ENV_VAR: |
-        hi there. i'm a really cool env var,
-        and i'm split across multiple lines!
-        how cool is that?
+    command: exit 1
+    retry:
+      automatic:
+      - exit_status: 1
+        limit: 3
