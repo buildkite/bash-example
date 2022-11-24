@@ -1,7 +1,5 @@
 steps:
   - label: "pretend to do tests"
-    command: exit 1
-    retry:
-      automatic:
-      - exit_status: 1
-        limit: 3
+    commands:
+      - "echo $$SUPER_SECRET_ENV_VAR"
+      - "cat /Users/ben/secret-file"
