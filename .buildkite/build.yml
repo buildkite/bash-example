@@ -6,5 +6,5 @@ steps:
    commands: "bash script.sh"
    notify:
     - github_commit_status:
-      context: "custom-status-check"
+        context: "custom-status-check"
 
