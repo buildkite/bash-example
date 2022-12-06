@@ -1,5 +1,0 @@
-name: "Bash Example"
-description: "An example repository you can use as a test project with Buildkite"
-steps:
-  - command: "buildkite-agent pipeline upload"
-    label: ":pipeline:"

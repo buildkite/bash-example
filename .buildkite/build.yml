@@ -1,0 +1,10 @@
+agents:
+  queue: default
+
+steps:
+ - label: "Build"
+   commands: "bash script.sh"
+   notify:
+    - github_commit_status:
+        context: "custom-status-check"
+
