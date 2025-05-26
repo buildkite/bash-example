@@ -9,6 +9,8 @@ The script simply prints some debug output with an inline image, some artifacts,
 
 See the full [Getting Started Guide](https://buildkite.com/docs/guides/getting-started) for step-by-step instructions on how to get this running, or [Add to Buildkite](https://buildkite.com/new) to try it yourself.
 
+<a href="https://buildkite.com/buildkite/bash-example/builds/latest?branch=main"><img width="1491" alt="Screenshot of Buildkite Bash example pipeline" src=".buildkite/screenshot.png" /></a>
+
 ## License
 
 See [License.md](License.md) (MIT)
