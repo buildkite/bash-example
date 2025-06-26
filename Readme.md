@@ -1,7 +1,7 @@
 # Buildkite Bash Pipeline Example
 
 [![Build status](https://badge.buildkite.com/aab023f2f33ab06766ed6236bc40caf0df1d9448e4f590d0ee.svg?branch=main)](https://buildkite.com/buildkite/bash-example)
-[![Add to Buildkite](https://img.shields.io/badge/Add%20to%20Buildkite-5dc279)](https://buildkite.com/new)
+[![Add to Buildkite](https://img.shields.io/badge/Add%20to%20Buildkite-14CC80)](https://buildkite.com/new)
 
 This repository is an example [Buildkite](https://buildkite.com/) pipeline for running a simple bash script, [script.sh](script.sh).
 
