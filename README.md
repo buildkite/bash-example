@@ -1,5 +1,3 @@
-<!-- TODO: delete this line and everything above -->
-
 # Buildkite Bash Example
 
 [![Build status](https://badge.buildkite.com/aab023f2f33ab06766ed6236bc40caf0df1d9448e4f590d0ee.svg?branch=main)](https://buildkite.com/buildkite/bash-example)
