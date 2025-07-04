@@ -1,6 +1,8 @@
 name: "Bash Example"
-description: "An example repository you can use as a test project with Buildkite"
+description: "An example pipeline that runs a simple Bash script with artifacts and inline output."
 emoji: ":bash:"
+languages:
+  - "Shell"
 steps:
-  - command: "buildkite-agent pipeline upload"
-    label: ":pipeline:"
+  - label: ":pipeline:"
+    command: "buildkite-agent pipeline upload"
