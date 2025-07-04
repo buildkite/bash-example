@@ -1,7 +1,6 @@
 name: "Bash Example"
 description: "An example pipeline that runs a simple Bash script with artifacts and inline output."
 emoji: ":bash:"
-color: "gray-100"
 languages:
   - "Shell"
 steps:
