@@ -30,3 +30,6 @@ function inline_image {
 }
 
 inline_image 'artifact://artifacts/image.gif' 'Rainbows'
+
+export OTEL_EXPORTER_OTLP_ENDPOINT=http://localhost:4317
+uv tool run --from otel-cli otel span --tp "$TRACEPARENT" my_child_processes

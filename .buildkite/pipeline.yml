@@ -2,3 +2,6 @@ steps:
   - label: ":hammer: Example Script"
     command: "script.sh"
     artifact_paths: "artifacts/*"
+  - label: ":hammer: Example Script 2"
+    command: "script.sh"
+    artifact_paths: "artifacts/*"
